@@ -1,0 +1,817 @@
+@charset "utf-8";
+
+   body {
+   margin: 0;
+   }
+
+   html {
+   scroll-behavior: smooth;
+   }
+
+/* Navbar */
+	
+	.navrow {
+  	display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-wrap: wrap;
+  	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	background-color: #7e60f4;
+	float: left;
+	}
+
+	.navcol {
+  	-ms-flex-preferred-size: 0;
+  	flex-basis: 0;
+  	-ms-flex-positive: 1;
+  	flex-grow: 1;
+  	max-width: 13.84%;
+	text-align: center;
+	font-family : Montserrat;
+    font-weight : 600;
+    font-size : 1.09vw;
+	background-color: #7e60f4;
+	border-width: 0.00vw;
+	margin-left: 1.24%;
+	margin-right: 1.24%;
+	}
+
+	.navcol a {
+	color: #1E272E;
+	}
+
+	.navcol a:hover {
+	color : #fdfcfa;
+	}
+
+  	.logo { 
+  	width: 35%;
+  	height: auto;
+  	float: left;
+ 	margin-top: 1.3vw;
+  	margin-bottom: 1.3vw;
+	margin-left: 4vw;
+  	}
+
+	.navlinks {
+	color : #1E272E;
+	text-align: center;
+	margin-top: 2.1vw;
+	}
+
+	a:hover {
+	text-decoration: none;
+	}
+
+	.searchicon {
+	width: 12%;
+	height: auto;
+	float: right;
+	margin-top: 2.1vw;
+	}
+
+	/*
+	a:link {
+    color: inherit;
+	}
+
+	a {
+	color:inherit;
+	}
+	*/
+
+/* Banner */
+
+  	.banner {
+  	position: relative;
+  	overflow: hidden;
+ 	background: #fff;
+    background: url("../images/Banner/Banner Background-01.png");
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+    }
+
+  	.banneremployment {
+  	position: relative;
+  	overflow: hidden;
+ 	background: #fff;
+    background: url("../images/Banner/BannerEP.png");
+    width: 100%;
+    height: 40vw;
+    }
+
+	.bannerimage {
+	width: 100%;
+	height: auto;
+	}
+
+	.bannergeneral {
+  	position: relative;
+  	overflow: hidden;
+ 	background: #fff;
+    background: url("../images/Banner/BannerGP.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+    }
+
+  	.bannerwa{
+  	position: relative;
+  	overflow: hidden;
+ 	background: #fff;
+    background: url("../images/Banner/Banner Background-02.png");
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+    }
+
+  	.banneraa{
+  	position: relative;
+  	overflow: hidden;
+ 	background: #fff;
+    background: url("../images/Banner/Banner (AA).png");
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+    }
+
+  	.bannercontent {
+  	position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 8.48vw;
+    padding-bottom: 5.67vw;
+    padding-left: 59.5%;
+    padding-right: 10.56%;
+	z-index: 1;
+    }
+
+  	.bannercontainer {
+  	position: relative;
+  	overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    }
+
+  	.bannercontainer video {
+  	position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+	z-index: -1;
+    }
+
+    .bannerheading {
+    font-family : Montserrat;
+    font-weight : bold;
+    font-size : 3.5vw;
+    color : #1E272E;
+    position: relative;
+	margin-right: 10.56%;
+    margin-left: 59.5%;
+    margin-top: 8.48vw;
+	z-index: 1;
+    }
+
+    .bannerheadingalt {
+    font-family : Montserrat;
+    font-weight : bold;
+    font-size : 3.5vw;
+    color : #fdfcfa;
+    position: relative;
+	margin-right: 10.56%;
+    margin-left: 10.56%;
+    margin-top: 16.19vw;
+	z-index: 1;
+    }
+
+    .bannertext {
+    margin-top: 2.81vw;
+	margin-bottom: 2.84vw;
+    font-family : Karla;
+    font-size : 1.4vw;
+    line-height : 2.10vw;
+    color : #1E272E;
+    position: relative;
+	margin-right: 10.56%;
+    margin-left: 59.5%;
+    }
+
+    .bannertextleft {
+    margin-top: 2.81vw;
+	margin-bottom: 2.84vw;
+    font-family : Karla;
+    font-size : 1.4vw;
+    line-height : 2.10vw;
+    color : #fdfcfa;
+    position: relative;
+	margin-right: 59.5%;
+    margin-left: 10.56%;
+	z-index: 1;
+    }
+
+    .bannertextalt {
+    margin-top: 2.81vw;
+	margin-bottom: 2.84vw;
+    font-family : Karla;
+    font-size : 1.4vw;
+    line-height : 2.10vw;
+    color : #fdfcfa;
+    position: relative;
+	margin-right: 10.56%;
+    margin-left: 10.56%;
+	z-index: 1;
+    }
+
+/* Buttons */
+
+	.bannerbutton {
+	width: 11.28vw;
+	height: auto;
+	color: #FFFFFF;
+	padding-top: 0.67vw;
+	padding-bottom: 0.67vw;
+    font-family : Karla;
+    font-weight : bold;
+    font-size : 1.30vw;
+	text-align: center;
+	background-color: #ff4e70;
+	float: left;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	border: none;
+	cursor: pointer;
+	margin-right: 10.56%;
+    margin-left: 59.5%;
+    margin-bottom: 5.67vw;
+	z-index: 1;
+	}
+
+	.bannerbutton a {
+	color: #fdfcfa;
+	}
+
+	.buttonwhite {
+	width: 11.28vw;
+	height: auto;
+	color: #1e272e;
+	padding-top: 0.67vw;
+	padding-bottom: 0.67vw;
+	margin-top: 2.26vw;
+    font-family : Karla;
+    font-weight : bold;
+    font-size : 1.30vw;
+	text-align: center;
+	background-color: #fdfcfa;
+	float: left;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	border: none;
+	cursor: pointer;
+	}
+
+	.buttonwhite a {
+	color: #ff4e70;
+	}
+
+	.buttonred {
+	width: 11.28vw;
+	height: auto;
+	color: #fdfcfa;
+	padding-top: 0.67vw;
+	padding-bottom: 0.67vw;
+	margin-top: 2.26vw;
+    font-family : Karla;
+    font-weight : bold;
+    font-size : 1.30vw;
+	text-align: center;
+	background-color: #ff4e70;
+	float: left;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	border: none;
+	cursor: pointer;
+	}
+
+	.buttonred a {
+	color: #fdfcfa
+	}
+
+	.button a {
+	color: #fdfcfa; 
+	}
+
+	.buttonpol {
+	width: 11.28vw;
+	height: auto;
+	color: #FFFFFF;
+	padding-top: 0.67vw;
+	padding-bottom: 0.67vw;
+	margin-top: 1.5vw;
+    font-family : Karla;
+    font-weight : bold;
+    font-size : 1.30vw;
+	text-align: center;
+	background-color: #ff4e70;
+	float: left;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 5.09vw;
+	}
+
+/* General Body Elements */
+
+	.contentcontainer {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	padding-left: 10.54%;
+	padding-right: 10.54%;
+	padding-top: 5.67vw;
+	padding-bottom: 5.67vw;
+	}
+
+	.contentcontainer2 {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #f5f5f5;
+	}
+
+	.cclight {
+	background-color: #fdfcfa;	
+	}
+
+	.ccgrey {
+	background-color: #f5f5f5;	
+	}
+
+	.ccred {
+	background-color: #ff4e70;	
+	}
+	
+	.contentheader1 {
+	 font-family : Montserrat;
+  	 font-weight : bold;
+  	 font-size : 2.29vw;
+	 width: 100%;
+  	 color : #FF4E70;
+	 float: left;
+	 position: relative;
+	}
+
+	.contentheader1light {
+	 font-family : Montserrat;
+  	 font-weight : bold;
+  	 font-size : 2.29vw;
+	 width: 100%;
+  	 color : #fdfcfa;
+	 float: left;
+	 position: relative;
+	 margin-bottom: 2.25vw;
+	}
+
+	.contentheader2 {
+     font-family : Karla;
+     font-weight : bold;
+     font-size : 1.5vw;
+     line-height : 2.10vw;
+     color : #1E272E;
+	 float: left;
+	 position: relative;
+	}
+
+	.contentheader3 {
+	 font-family : Montserrat;
+  	 font-weight : bold;
+  	 font-size : 2.29vw;
+	 width: 100%;
+  	 color : #7e60f4;
+	 float: left;
+	 position: relative;
+	 margin-bottom: 2.25vw;
+	}
+
+	.contenttext {
+	font-family : Karla;
+	font-weight: 400;
+  	font-size : 1.40vw;
+  	line-height : 2.10vw;
+  	color : #1E272E;
+	margin-top: 1vw;
+	float: left;
+	position: relative;
+	}
+
+	.aiimage {
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	width: 100%;
+	height: auto;
+	}
+
+/* Policy Page */
+	.polleftbar {
+	width: 25.29%;
+	height: auto;
+	position: relative;
+	float: left;
+	padding-top: 5.67vw;
+	padding-bottom: 5.67vw;
+	padding-left: 10.54%;
+    font-family : Karla;
+    font-size : 1.4vw;
+	font-weight: 500;
+    line-height : 2.10vw;
+    color : #ff4e70;
+	}
+
+	.polleftbar a {
+	color: #ff4e70;
+	font-weight: 500;
+	}
+
+	.polleftbar a:hover {
+	color: #7e60f4;
+	font-weight: 600;
+	}
+
+	.polcontent {
+	width: 74%;
+	height: auto;
+	position: relative;
+	float: left;
+	padding-top: 5.67vw;
+	padding-bottom: 5.67vw;
+	padding-left: 7.19%;
+	padding-right: 10.54%;
+	background-color: #fdfcfa;
+	}
+
+	.polheading {
+	width: 100%;
+	font-family : Karla;
+  	font-weight : bold;
+  	font-size : 1.40vw;
+  	color : #1E272E;
+	float: left;
+	position: relative;
+	margin-bottom: 1.5vw;
+	}
+
+	.poltext {
+	font-family : Karla;
+  	font-weight : 400;
+  	font-size : 1.40vw;
+  	color : #1E272E;
+	float: left;
+	position: relative;
+	}
+
+/* Workplace Awareness Page*/
+
+	.warow {
+  	display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-wrap: wrap;
+  	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	background-color: inherit;
+	float: left;
+	}
+
+	.wacol {
+  	-ms-flex-preferred-size: 0;
+  	flex-basis: 0;
+  	-ms-flex-positive: 1;
+  	flex-grow: 1;
+  	max-width: 20.04%;
+	border-width: 0.00vw;
+	margin-bottom: 5.31vw;
+	}
+	
+	.waimagebox {
+	width: 100%;
+	height: auto;
+	float: left;
+	position: relative;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	box-shadow: 0.31vw 0.31vw 0.83vw #d2d5db;
+	}
+
+	.walinktext {
+	font-family: Karla;
+  	font-size: 1.40vw;
+  	color: #FF4E70;
+	float: left;
+	position: relative;
+	margin-top: 1.13vw;
+	margin-left: 1.42vw;
+	font-weight: 600;
+	}
+
+	.walinktext a {
+	color: #FF4E70;
+	}
+
+	.walinktext a:hover {
+	color: #7e60f4;
+	}
+
+/* Policy Cards */
+
+	.policycard1 {
+	width: 38.19vw;
+	height: auto;
+	margin-top: 2.52vw;
+	padding: 2.40vw;
+	background-color: #12cd99;
+	float: left;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	border: none;
+	box-shadow: 0 4px 8px 0 #d2d5db;
+	}
+
+	.policycard2 {
+	width: 38.19vw;
+	height: auto;
+	margin-top: 2.52vw;
+	padding: 2.40vw;
+	background-color: #00dbdb;
+	float: right;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	border: none;
+	box-shadow: 0 4px 8px 0 #d2d5db;
+	}
+
+/* Activist Information */
+
+	.qacontainer1 {
+	width: 38.19vw;
+	height: auto;
+	margin-top: 2.52vw;
+	background-color: inherit;
+	float: left;
+	border: none;
+	}
+
+	.qacontainer2 {
+	width: 38.19vw;
+	height: auto;
+	margin-top: 2.52vw;
+	background-color: inherit;
+	float: right;
+	border: none;
+	}
+
+	.qacontentheader {
+	 font-family : Montserrat;
+  	 font-weight : bold;
+  	 font-size : 2.29vw;
+	 width: 100%;
+  	 color : #7e60f4;
+	 float: left;
+	 position: relative;
+	}
+
+	.qacontenttext {
+	font-family : Karla;
+  	font-size : 1.40vw;
+  	line-height : 2.10vw;
+  	color : #1E272E;
+	float: left;
+	position: relative;
+	}
+
+/* Workplace Awareness Page */
+
+	.wacontainer1 {
+	width: 36vw;
+	height: auto;
+	margin-top: 2.52vw;
+	background-color: inherit;
+	float: left;
+	border: none;
+	}
+
+/* News Articles */
+
+	.newscontainer1 {
+	width: 23vw;
+	height: 36.69vw;
+	margin-top: 2.52vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 1.95vw;
+	background-color: inherit;
+	float: left;
+	border: none;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	box-shadow: 0.31vw 0.31vw 0.83vw #d2d5db;
+	}
+
+	.newscontainer2 {
+	width: 23vw;
+	height: 36.69vw;
+	margin-top: 2.52vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 1.95vw;
+	background-color: inherit;
+	float: left;
+	border: none;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	box-shadow: 0.31vw 0.31vw 0.83vw #d2d5db;
+	}
+
+	.newscontainer3 {
+	width: 23vw;
+	height: 36.69vw;
+	margin-top: 2.52vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 1.95vw;
+	background-color: inherit;
+	float: left;
+	border: none;
+	border-radius: 0vw 1.42vw 1.42vw 1.42vw;
+	box-shadow: 0.31vw 0.31vw 0.83vw #d2d5db;
+	}
+
+	.newsimage {
+	width: 100%;
+	height: 12.43vw;
+	background-color: #3dadef;
+	float: left;
+	border: none;
+	border-radius: 0vw 1.42vw 0vw 0vw;
+	}
+
+	.newstextbox {
+	width: 100%;
+	height: 24.26vw;
+	background-color: #f5f5f5;
+	padding: 2.46vw;
+	float: left;
+	border: none;
+	border-radius: 0vw 0vw 1.42vw 1.42vw;
+	}
+
+	.newscontenttext {
+	font-family : Karla;
+  	font-size : 1.40vw;
+  	line-height : 2.10vw;
+  	color : #1E272E;
+	float: left;
+	position: relative;
+	margin-top: 1.5vw;
+	}
+
+	.newsreadmore {
+	font-family : Karla;
+  	font-size : 1.40vw;
+  	font-weight : bold;
+  	line-height : 2.10vw;
+	float: right;
+	position: relative;
+	margin-top: 1.5vw;
+	color: #ff4e70;
+	}
+
+	.newsreadmore a {
+  	 color: #ff4e70;
+		
+	}
+	.newsreadmore a:hover {
+  	color: #7e60f4;
+	}
+
+	.newsheight {
+		max-height: 9.74vw;
+	}
+		
+
+/* Footer */
+
+	.footcontainer {
+	
+
+	width: 100%;
+	height: auto;
+	padding-top: 2.81vw;
+	padding-bottom: 4.21vw;
+	background-color: #7e60f4;
+	position: relative;
+	float: left;
+	}
+
+	.footrow {
+  	display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-wrap: wrap;
+  	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	background-color: inherit;
+	float: left;
+	}
+
+	.footcol {
+  	-ms-flex-preferred-size: 0;
+  	flex-basis: 0;
+  	-ms-flex-positive: 1;
+  	flex-grow: 1;
+  	max-width: 6.3vw;
+	text-align: center;
+	font-family : Montserrat;
+    font-weight : 600;
+    font-size : 1.09vw;
+    color : #1E272E;
+	background-color: inherit;
+	border-width: 0.00vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	}
+
+  	.footlogo { 
+  	width: 8.49%;
+  	height: auto;
+  	float: left;
+	position: relative;
+	margin-left: 4vw;
+  	}
+
+	.footcontenttext {
+	width: 70.54vw;
+	font-family : Karla;
+  	font-size : 1.40vw;
+  	line-height : 2.10vw;
+  	color : #1E272E;
+	float: right;
+	position: relative;
+	margin-right: 10.54%;
+	}
+
+	.footlinks {
+	text-align: center;
+	margin-top: 2vw;
+	font-family : Karla;
+  	font-size : 1.40vw;
+	font-weight: 600;
+  	line-height : 2.10vw;
+  	color : #1E272E;
+	float: right;
+	position: relative;
+	}
+
+	.footlinks a {
+	color: #1E272E; 
+	}
+
+	.footlinks a:hover {
+	color: #fdfcfa; 
+	}
+
+	.socialmediaicon {
+	width: 2.80vw;
+	height: auto;
+	float: center;
+	margin-top: 2vw;
+	}
+
+
+/* Carousel */
+
+	.arrowprev {
+	width: 4.22vw;
+	margin-top: 22vw;
+	height: auto;
+	z-index: 1;
+	left: 0;
+	position: absolute;
+	margin-left: 10.54%;
+	cursor: pointer;
+	}
+
+	.arrownext {
+	width: 4.22vw;
+	margin-top: 22vw;
+	height: auto;
+	z-index: 1;
+	right: 0;
+	position: absolute;
+	margin-right: 10.54%;
+	cursor: pointer;
+	}
+
+
+	
+	
+
+	
+
+
+
